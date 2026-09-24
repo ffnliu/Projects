@@ -1,6 +1,6 @@
 # Projects
 
-## Identifying Sarcastic Spans 1/2026 - 4/2026, University of Michigan
+## Sarcasm Detection in Reddit Conversations 1/2026 - 4/2026, University of Michigan
 ### Abstract
 Sarcasm detection remains an important unsolved challenge in natural language processing. Failure to detect sarcasm can cause negative statements to be misclassified as positive sentiment, thereby distorting the identification of the intended tone. To investigate the most effective strategy for sarcasm detection, we conducted a comprehensive study comparing explicit manual feature engineering, such as dual-channel architectures, with implicit contextual representation learning. Overall, we evaluated performance across five distinct models: a baseline model (TF-IDF + SVM), a custom Dual-Channel Multi-Scale Convolutional Neural Network (DMS-CNN) that incorporates a semantic channel and a rule-based sentiment (VADER) channel, a hybrid BERT-CNN, and two Transformer models (BERT and DeBERTa).
 
