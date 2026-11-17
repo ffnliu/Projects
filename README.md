@@ -1,3 +1,11 @@
+# Paper
+
+## Explicit Mathematical Expressions Do Not Guarantee Physical Interpretability
+
+### Abstract
+Engineers use milling stability predictions to select spindle speeds and depths of cut that avoid chatter. For an explainable model to guide those choices, it matters how its predictions change as cutting conditions vary. We examined whether a mathematical expression extracted from a Kolmogorov-Arnold network (KAN) model could explain how these parameters affect milling stability. The KAN model classified simulated cuts with 80.36% accuracy against stability labels derived from cutting-force signals. We pruned the network, extracted its symbolic expression, and compared the full and simplified expressions with established milling relationships. The extracted expressions captured some established trends in milling stability but missed important physical behavior. For example, both predicted a higher chatter score as axial depth of cut increased, consistent with milling theory. However, every term in both expressions depended on a single input, so neither represented the interactions between parameters that govern chatter, and neither could reproduce the repeated transitions between stable cutting and chatter that can occur as spindle speed varies. The full expression predicted a linear decrease in chatter score with increasing speed, while simplification removed spindle speed entirely at a cost of only 1.45 percentage points in classification accuracy. Inspecting the expressions thus exposed a limitation that their similar accuracies obscured. Whether that limitation originated in the numerical KAN model or arose during symbolic extraction remains an open question.
+
+
 # Projects
 
 ## Sarcasm Detection in Reddit Conversations 1/2026 - 4/2026, University of Michigan
